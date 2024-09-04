@@ -1,0 +1,13 @@
+<Context>
+	<Resource name="jdbc/estate_app"
+	auth="Container"
+	type="javax.sql.DataSource"
+	maxActive="120"
+	maxIdle="30"
+	maxWait="15000"
+	username="root"
+	password="1234minus"
+	driverClassName="com.mysql.cj.jdbc.Driver"
+	url="jdbc:mysql://localhost:3306/realestatedb?useSSL=false"	
+	/>
+</Context>
